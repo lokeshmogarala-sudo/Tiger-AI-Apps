@@ -1,0 +1,6 @@
+{
+  "name": "Weather Intelligence",
+  "description": "An AI-enhanced Weather Intelligence application offering real-time city search, detailed weather diagnostics, 7-day interactive forecasting, and custom planning recommendations powered by the Open-Meteo API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
