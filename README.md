@@ -1,4 +1,4 @@
-Step 1: Push your code to GitHub
+**Step 1: Push your code to GitHub**
 First, you need to get your local code into a GitHub repository.
 
 Initialize a Git repository locally (if you haven't already):
@@ -15,7 +15,8 @@ Bash
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 git push -u origin main
-Step 2: Connect GitHub to Cloudflare Pages
+
+**Step 2: Connect GitHub to Cloudflare Pages**
 Log in to the Cloudflare Dashboard.
 
 On the left sidebar, navigate to Workers & Pages.
@@ -26,7 +27,7 @@ Click Connect to Git and authorize Cloudflare to access your GitHub account.
 
 Select the repository you just created and click Begin setup.
 
-Step 3: Configure Build and Environment Variables
+**Step 3: Configure Build and Environment Variables**
 Set up the build settings:
 Depending on the framework your AI Studio app generated (like Vite, Next.js, or standard React), set the framework preset:
 
